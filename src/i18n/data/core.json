@@ -1,0 +1,6 @@
+{
+  "Product.demoHint": "The table represtens the result of automated product validation",
+  "Product.noResults": "There are no channels available in this project.",
+  "Product.subtitle": "Logged-id user: {firstName} {lastName}",
+  "Product.title": "Product Validation Workflow"
+}

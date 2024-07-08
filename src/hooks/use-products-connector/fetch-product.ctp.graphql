@@ -1,0 +1,23 @@
+query FetchProduct($id: String!) {
+  product(id: $id) {
+    id
+    version
+    key
+    productType {
+      id
+      name
+    }
+    masterData {
+      staged {
+        masterVariant {
+          id
+          sku
+          attributesRaw {
+            name
+            value
+          }
+        }
+      }
+    }
+  }
+}
